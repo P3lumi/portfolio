@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    height: 95vh;
+    width: 100%;
+    /* background-image: url(../../../assets/bg.jfif); */
+    background-size: cover;
+    justify-content: space-between;
+} 
+.container p :nth-child(1){
+display: flex;
+border-left: none;
+}
+.port{
+   
+    right: 1%;
+    top:20%;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+ 
+ }
+ .image{
+     display: flex;
+ }
+ h1{
+     color:black;
+     margin: 20px 0px 20px;
+     font-size: 60px;
+     
+ }
+ h2{
+     color: #808080;
+     font-size: 40px;
+ }
+ .description{
+     padding: 1px 1px 1px 0;
+     border-radius: 1px;
+     line-height: 10px;
+     margin-top: 2rem;
+    
+ }
+ /* h3{
+     font-size: 20px;
+     margin-bottom: 50px;
+ }
+ h4{
+     font-size: 15px;
+     letter-spacing: 2px; 
+ } */
+ .share{
+    margin-top: 3rem;
+    display: flex;
+    
+    }
+    .btn{
+        background-color:white;
+        text-decoration: none;
+        border:2px solid transparent;
+        color:#808080;
+        font-weight: bold;
+        border-color: #808080;
+        padding: 14px 28px;
+        border-radius: 5px;
+    }
+    .btn:hover{
+        background:#808080;
+        color: white;
+    }
+   .link{
+        margin: 0;
+        display: flex;  
+        list-style: none;
+   } 
+   a{
+       text-decoration: none;
+       color: #808080;
+       padding: 5px 5px 5px 0;
+   }

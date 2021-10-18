@@ -1,0 +1,29 @@
+ul{
+    /* margin-right: 90px; */
+    list-style-type: none;
+    /* display: inline-block; */
+    display: flex;
+    align-items: left;
+    padding: 30px 30px;
+    font-weight: bold;
+    /* float: left; */
+    /* width :100%; */
+    background-color: #fafafa;
+    
+}
+
+ul li{
+    /* margin-left: 40px; */
+    padding-left: 48px;
+    position: relative;
+    left:650px;
+}
+ul li a {
+    color: #0a0a0a;
+    text-decoration:none;
+}
+ul li a:hover{
+    /*color:#f9004d;*/
+    color: #808080;
+    transition: .4s;
+}

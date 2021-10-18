@@ -1,0 +1,95 @@
+.aboutcontainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.subsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+.socials{
+font-weight: 500;
+font-size: medium;
+padding-left: 32px;
+list-style: none;
+color: white;
+line-height: 30px;
+}
+.socials a{
+    text-decoration: none;
+    color:white;
+}
+.socials a:hover{
+color: #808080;
+}
+.details{
+    line-height: 30px;
+    margin-left: 35px;
+    color: #808080;
+}
+p{
+    line-height: 30px;
+    margin-left: 35px; 
+}
+.aboutcontainer h2{
+font-weight: 700;
+font-size: 48px;
+color:white;
+display: flex;
+padding-top: 1.5rem;
+
+padding-left: 6rem;
+text-decoration: none;
+}
+.aboutcontainer {
+    width: 100%;
+    background-color: black; 
+    color: white;
+  }
+  
+  .skills {
+     
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+    
+   
+    
+  }
+  .p{
+    padding-left: 6rem;
+  }
+  .container{
+      box-sizing: border-box;
+      padding-left: 6rem;
+      padding-right: 6rem;
+      
+  }
+  .jspadding{
+    padding-bottom: 6rem;
+  }
+  .html {border-radius: 30px; width: 90%; background-color: #04AA6D; margin-left: 35px;} 
+  .css {border-radius: 30px;width: 80%; background-color: #2196F3;margin-left: 35px;}
+  .js {border-radius: 30px;width: 65%; background-color: #f44336; margin-left: 35px;} 
+/* .share{
+position:absolute;
+top: 90%;
+left: 8%;
+display: flex;
+}
+.btn{
+    background-color:white;
+    text-decoration: none;
+    border:2px solid transparent;
+    color:#808080;
+    font-weight: bold;
+    border-color: #808080;
+    padding: 14px 28px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background:#808080;
+    color: white;
+} */
