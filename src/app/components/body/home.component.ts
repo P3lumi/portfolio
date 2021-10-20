@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserServiceService } from 'src/app/service/user-service.service';
 
 @Component({
   selector: 'app-body',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodyComponent implements OnInit {
 
-  constructor() { }
+  bio:any ={};
+
+  constructor(private bioService:UserServiceService) { }
 
   ngOnInit(): void {
+    this.bioService.getBio().subscribe(
+      (resp :any)=>{
+        this.bio = resp
+      },// success response
+      (err)=>{
+        console.log(err)
+      }, // error response
+    )
   }
 
 }
